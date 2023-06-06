@@ -24,7 +24,7 @@ After taking your advice, I found this set of commands for grep:
 This made me realize that on line 29 of my grading script, I used the wrong command, putting -f rather than -c. By changing this, my code was able to get rid of the error message, while still passing all the tests.   
 ## Other Information:   
 *File and Directory used:*   
-Used directory: [Link](https://https://github.com/jordan35chang/list-examples-grader-2) for the grading script and [Link](https://github.com/ucsd-cse15l-s23/list-examples-duplicates) for the file being tested.   
+Used directory: [Link]([https://https://github.com/jordan35chang/list-examples-grader-2](https://github.com/jordan35chang/list-examples-grader-2)) for the grading script and [Link](https://github.com/ucsd-cse15l-s23/list-examples-duplicates) for the file being tested.   
 *Contents of File Before Fixing*
 Grade.sh:   
 ![Image](Grader_Code.png)   
