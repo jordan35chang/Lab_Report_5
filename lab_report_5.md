@@ -23,6 +23,21 @@ After taking your advice, I found this set of commands for grep:
 ![Image](grep_commands.png)   
 This made me realize that on line 29 of my grading script, I used the wrong command, putting -f rather than -c. By changing this, my code was able to get rid of the error message, while still passing all the tests.   
 ## Other Information:   
-
+*File and Directory used:*   
+Used directory: [Link](https://https://github.com/jordan35chang/list-examples-grader-2) for the grading script and [Link](https://github.com/ucsd-cse15l-s23/list-examples-duplicates) for the file being tested.   
+*Contents of File Before Fixing*
+Grade.sh:   
+![Image](Grader_Code.png)   
+*Command Used:*   
+```
+bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-duplicates
+```
+*How to Fix Bug:*   
+In order to fix the bug, on line 29 of grade.sh, the -f in the code:   
+```
+FAILURES=`grep -c FAILURES!!! junit-output.txt`
+```
+needs to be changed to -c, so that the code functions properly.   
+   
 # Part 2: Reflection
 In the second half of this quarter, I learned more about the vim command and it's applications. Prior to the second half of the quarter, I was not aware of vim and it's uses, but after attending the labs I learned how it can be used to edit files and also learned commands in vim to help me be more efficient.
